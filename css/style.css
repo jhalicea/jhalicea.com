@@ -258,7 +258,7 @@ header nav ul {
     bottom: 0px;
     height: 100%;
     min-height: 600px;
-    overflow: scroll;
+    overflow: hidden;
     background-color: #fff;
     box-shadow:  0 0 30px rgba(0, 0, 0, 0.09);
     width: 300px;
