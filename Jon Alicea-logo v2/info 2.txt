@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Quantico-Regular
+font link: https://fonts.google.com/specimen/Quantico
+font author: MADType
+font author site: http://www.madtype.com/
+
+
+icon designer: TagTeam Studio
+icon designer link: /jess_because
+        
+{"bg-gradient-0":"#0978A6","bg-gradient-1":"#FB9447","font":"#ffffff","icon":"#ffffff","slogan":"#ffffff"}
+      

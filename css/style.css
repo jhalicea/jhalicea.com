@@ -5,6 +5,11 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background: #000;
+  color: #fff;
+}
+
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -39,12 +44,22 @@ h2 {
   padding: 0;
 }
 
+h3, label {
+  font-family: 'Quantico', sans-serif;
+}
+
 p {
   line-height: 2;
 }
 
 span {
   font-family: 'Quantico', sans-serif;
+}
+
+.pgp {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: justify;
+  margin-left: 50px;
 }
 
 /* ----BUTTONS SECTION---- */
@@ -205,6 +220,45 @@ nav ul li {
 iframe {
   width: 100%; 
   height: 300px;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
+
+form, form input, form textarea {
+  width: 100%;
+}
+
+form input, form textarea {
+  text-decoration: none;
+  background-color:#f9f9f9;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 20px 20px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.form-items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.form-items:last-child, .form-items:first-child {
+  margin: 0;
+}
+
+form .btn {
+  margin: 0;
 }
 
 .map {
